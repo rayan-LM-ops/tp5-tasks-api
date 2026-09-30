@@ -1,0 +1,22 @@
+info:
+  name: TestGetAPI
+  type: http
+
+http:
+  method: GET
+  url: http://localhost:3000/tasks
+  body:
+    type: json
+    data: |-
+      {
+        "title": "Faire mon TP",
+        "description": "Connecter l'API à PostgreSQL",
+        "completed": false
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
