@@ -74,4 +74,10 @@ Pour une fois, la base est bien connecté sur DBeaver, vous pouvez aussi taper u
 
 ex : SELECT * FROM tasks
 
+# Les corrections des vulnérabilités hautes et critiques 
+
+il faut utiliser la commande "npm audit fix" pour permettre de corriger des vulnérabilités hautes et critiques dans le dossier où vous avez utilisé le "npm run dev". 
+
+
+
 Rayan EL ALAOUI

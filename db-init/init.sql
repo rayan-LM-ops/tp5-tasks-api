@@ -4,4 +4,5 @@ CREATE TABLE IF NOT EXISTS tasks (
     description TEXT,
     completed BOOLEAN NOT NULL DEFAULT FALSE,
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+    assignee VARCHAR(50) NULL
 );
